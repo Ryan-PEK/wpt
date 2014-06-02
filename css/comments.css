@@ -1,0 +1,33 @@
+
+.addComment input[type=text] {
+  line-height: 18px;
+  color: #424547;
+  border: 1px solid #c2c2c2;
+  background-color: white;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+/* Chat */
+.commentsHistory {
+  background-color: white;
+  overflow: auto;
+  width: 100%;
+  padding: 2px;
+  border: 0px solid #424547;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.addComment {
+  height:24px;
+  text-align: left;
+  position: relative;
+}
+
+
