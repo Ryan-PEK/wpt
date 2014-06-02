@@ -456,7 +456,7 @@
     <script>
     if (window.performance && window.performance.timing) {
         var timeSpent = window.performance.timing.domInteractive - window.performance.timing.connectStart;
-        _gaq.push(['_trackTiming', 'WPT', 'Time To Interact', timeSpent]);
+        ga.push(['_trackTiming', 'WPT', 'Time To Interact', timeSpent]);
     }
     </script>
 
